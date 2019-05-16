@@ -1,8 +1,8 @@
-1. ציון ממוצע של כל קורס
-update Courses set Avg_Grade=(select  avg(g.grade) as avager from Grades g Where g.Course_Id = Courses.Id)
+1. Update avg Of Grades.
+update Courses set Avg_Grade= b.Avager from (select Course_Id, AVG(Grades) As Avager from Grades group by Course_Id)b where b.COURSE_Id = Courses.Id
 
-2. מספר תלמידים בכל קורס
+2. Update avg Of Number Of Students.
 update Courses set Num_Of_Students=b.Counter from (select Course_Id, COUNT(*) as Counter from Grades group by Course_Id) as b where b.Course_Id = Courses.Id
 
-3.הציון הכי גבוה בקורס
-Update Courses set Highest_Grade =(SELECT max(Grade) from Grades g JOIN Courses c on g.Course_Id=c.id group by Course_Id)
+3.Update The Highest Grade.
+Update Courses set Highest_Grade = b.Maxer from (select Course_ID, Max(Grades) As Maxer from Grades group by Course_Id)b where b.COURSE_Id = Courses.Id

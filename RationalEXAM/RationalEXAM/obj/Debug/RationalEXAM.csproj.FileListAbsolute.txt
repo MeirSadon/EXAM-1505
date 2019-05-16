@@ -1,0 +1,7 @@
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\bin\Debug\RationalEXAM.exe.config
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\bin\Debug\RationalEXAM.exe
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\bin\Debug\RationalEXAM.pdb
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\obj\Debug\RationalEXAM.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\obj\Debug\RationalEXAM.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\obj\Debug\RationalEXAM.exe
+C:\Users\Owner\source\repos\RationalEXAM\RationalEXAM\obj\Debug\RationalEXAM.pdb
